@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Asus laptops</title>
+   <link rel="stylesheet" href="css/interface.css">
+</head>
+
+<body>
+
+   <div class="header1">
+      <nav class="nav">
+         <div class="logo">
+            <a href="index.html">
+               <div>
+                  <img src="img/logo.jpg" alt="">
+               </div>
+               <div class="logo-name">
+                  LWarehouse
+               </div>
+            </a>
+         </div>
+         <div>
+            <ul>
+               <li><a href="index.html?#home">Home</a></li>
+               <li><a href="index.html?#computers" class="act">Computers</a></li>
+               <li><a href="index.html?#gallery">Gallery</a></li>
+               <li><a href="index.html?#about">About</a></li>
+            </ul>
+         </div>
+      </nav>
+   </div>
+
+
+   <div class="slides0">
+      <div class="laptops">
+         <div class="laptop-title">
+            <a href="index.html?#computers"><div class="b-button">Back</div></a>
+            <h1>Asus Models</h1>
+         </div>
+
+         <div class="option" style="text-align: right;">
+            <label for="brand">Select Brand</label>
+            <select id="brand" onchange="redirect()">
+               <option value="">--</option>
+               <option value="asus.html">Asus</option>
+               <option value="dell.html">Dell</option>
+               <option value="acer.html">Acer</option>
+            </select>
+         </div>
+
+         <script>
+            function redirect() {
+               var select = document.getElementById("brand");
+               var selectedOption = select.options[select.selectedIndex].value;
+               if (selectedOption) {
+                  window.location.href = selectedOption;
+               }
+            }
+         </script>
+
+         <div class="laptop-con">
+            <div class="laptop-list">
+               <div class="img-laptop1">
+                  <img src="img/ASUS ROG Zephyrus G14.jpg" alt="">
+               </div>
+               <div class="details">
+                  <div class="laptop-name">
+                     <h4>ASUS ROG Zephyrus G14
+                     </h4>
+                     <h4>₱99,999.00.</h4>
+                  </div><br>
+                  <p> Processor: AMD Ryzen 9 5900HS <br>
+                     Graphics: NVIDIA GeForce RTX 3060 <br>
+                     RAM: 16GB DDR4 <br>
+                     Storage: 1TB PCIe SSD <br>
+                     Display: 14-inch QHD 144Hz IPS</p>
+               </div>
+            </div>
+            <div class="laptop-list">
+               <div class="img-laptop1">
+                  <img src="img/ASUS ROG Strix Scar 15.jpg" alt="">
+               </div>
+               <div class="details">
+                  <div class="laptop-name">
+                     <h4>ASUS ROG Strix Scar 15</h4>
+                     <h4>₱76,246</h4>
+                  </div><br>
+                  <p>Processor: AMD Ryzen 9 5900HX <br>
+                     Graphics: NVIDIA GeForce RTX 3080 <br>
+                     RAM: 32GB DDR4 <br>
+                     Storage: 1TB PCIe SSD <br>
+                     Display: 15.6-inch QHD 165Hz IPS</p>
+               </div>
+            </div>
+            <div class="laptop-list">
+               <div class="img-laptop1">
+                  <img src="img/ASUS TUF Gaming A15.jpg" alt="">
+               </div>
+               <div class="details">
+                  <div class="laptop-name">
+                     <h4>ASUS TUF Gaming A15
+                     </h4>
+                     <h4>₱79,995</h4>
+                  </div><br>
+                  <p> Processor: AMD Ryzen 7 5800H <br>
+                     Graphics: NVIDIA GeForce RTX 3070 <br>
+                     RAM: 16GB DDR4 <br>
+                     Storage: 512GB PCIe SSD <br>
+                     Display: 15.6-inch Full HD 144Hz IPS</p>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="slides laptop-slides1">
+         <div class="laptops">
+            <div class="laptop-con1">
+               <div class="laptop-list1">
+                  <div class="img-laptop1">
+                     <img src="img/ASUS ROG Zephyrus G15.jpg" alt="">
+                  </div>
+                  <div class="details">
+                     <div class="laptop-name">
+                        <h4>ASUS ROG Zephyrus G15</h4>
+                        <h4>₱110,995.00.</h4>
+                     </div><br>
+                     <p>
+                        Processor: AMD Ryzen 9 5900HS <br>
+                        Graphics: NVIDIA GeForce RTX 3060 <br>
+                        RAM: 16GB DDR4 <br>
+                        Storage: 1TB PCIe SSD <br>
+                        Display: 15.6-inch QHD 165Hz IPS</p>
+                  </div>
+               </div>
+               <div class="laptop-list1">
+                  <div class="img-laptop1">
+                     <img src="img/ASUS ROG Strix Scar 17.jpg" alt="">
+                  </div>
+                  <div class="details">
+                     <div class="laptop-name">
+                        <h4>ASUS ROG Strix Scar 17
+                        </h4>
+                        <h4>₱109,999.00</h4>
+                     </div><br>
+                     <p> Processor: Intel Core i9-11900H <br>
+                        Graphics: NVIDIA GeForce RTX 3080 <br>
+                        RAM: 32GB <br>
+                        Storage: 2TB PCIe SSD <br>
+                        Display: 17.3-inch QHD 165Hz IPS</p>
+                  </div>
+               </div>
+               <div class="laptop-list1">
+                  <div class="img-laptop1">
+                     <img src="img/ASUS ROG Zephyrus Duo 15.jpg" alt="">
+                  </div>
+                  <div class="details">
+                     <div class="laptop-name">
+                        <h4>ASUS ROG Zephyrus <br>Duo 15</h4>
+                        <h4>₱31,000.00</h4>
+                     </div><br>
+                     <p>Processor: Intel Core i9-10980HK <br>
+                        Graphics: NVIDIA GeForce RTX 3080 <br>
+                        RAM: 32GB DDR4 <br>
+                        Storage: 2TB PCIe SSD <br>
+                        Display: 15.6-inch 4K UHD 120Hz IPS</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="slides laptop-slides1">
+         <div class="laptops">
+            <div class="laptop-con1">
+               <div class="laptop-list">
+                  <div class="img-laptop1">
+                     <img src="img/ASUS ROG Strix G17.jpg" alt="">
+                  </div>
+                  <div class="details">
+                     <div class="laptop-name">
+                        <h4>ASUS ROG Strix G17</h4>
+                        <h4>₱114,995.00</h4>
+                     </div><br>
+                     <p>Processor: AMD Ryzen 9 5900HX <br>
+                        Graphics: NVIDIA GeForce RTX 3070 <br>
+                        Storage: 1TB PCIe SSD <br>
+                        Display: 17.3-inch Full HD 300Hz IPS</p>
+                  </div>
+               </div>
+               <div class="laptop-list">
+                  <div class="img-laptop1">
+                     <img src="img/ASUS ROG Zephyrus S17.jpg" alt="">
+                  </div>
+                  <div class="details">
+                     <div class="laptop-name">
+                        <h4>ASUS ROG Zephyrus S17</h4>
+                        <h4>₱249,995.00</h4>
+                     </div><br>
+                     <p>Processor: Intel Core i9-11900H <br>
+                        Graphics: NVIDIA GeForce RTX 3080 <br>
+                        RAM: 32GB DDR4 <br>
+                        Storage: 2TB PCIe SSD <br>
+                        Display: 17.3-inch QHD 165Hz IPS</p>
+                  </div>
+               </div>
+               <div class="laptop-list">
+                  <div class="img-laptop1">
+                     <img src="img/ASUS ROG Zephyrus M16.jpg" alt="">
+                  </div>
+                  <div class="details">
+                     <div class="laptop-name">
+                        <h4>ASUS ROG Zephyrus M16</h4>
+                        <h4>₱159,995.00</h4>
+                     </div><br>
+                     <p>Processor: Intel Core i9-11900H <br>
+                        Graphics: NVIDIA GeForce RTX 3070 <br>
+                        RAM: 32GB DDR4 <br>
+                        Storage: 1TB PCIe SSD <br>
+                        Display: 16-inch WQXGA 165Hz IPS
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="footer">
+         <div class="footer-con">
+            <center>
+               <h2>Useful Links</h2>
+               <ul>
+                  <li><a href="https://www.asus.com/ph/">ASUS</a></li>
+                  <li><a href="https://www.dell.com/en-ph">DELL</a></li>
+                  <li><a href="https://store.acer.com/en-ph/">ACER</a></li>
+               </ul>
+            </center>div
+         </div>
+         <div class="footer-con">
+            <div class="f-logo">
+               <a href="index.html">
+                  <div class="fimg">
+                     <img src="img/logo.jpg" width="100%" height="100%" alt="">
+                  </div>
+                  <div class="f-logo-name">
+                     <h1>LWarehouse</h1>
+                  </div>
+               </a>
+            </div>
+         </div>
+         <div class="footer-con">
+            <center>
+               <h2>Contact</h2>
+               <p>+63 945 694 5886</p>
+               <p>johnpaulbiibay@gmail.com</p>
+               <div class="i-con">
+                  <div class="icon"><img src="img/fb-logo.jpg" width="100%" height="100%" alt=""></div>
+                  <div class="yicon"><img src="img/yt-logo.jpg" width="100%" height="100%" alt=""></div>
+                  <div class="icon"><img src="img/tw-logo.jpg" width="100%" height="100%" alt=""></div>
+               </div>
+            </center>
+         </div>
+      </div>
+   </div>
+
+</body>
+
+</html>

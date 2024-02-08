@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Acer Laptops</title>
+   <link rel="stylesheet" href="css/interface.css">
+</head>
+
+<body>
+
+   <div class="header1">
+      <nav class="nav">
+         <div class="logo">
+            <a href="index.html">
+               <div>
+                  <img src="img/logo.jpg" alt="">
+               </div>
+               <div class="logo-name">
+                  LWarehouse
+               </div>
+            </a>
+         </div>
+         <div>
+            <ul>
+               <li><a href="index.html?#home">Home</a></li>
+               <li><a href="index.html?#computers" class="act">Computers</a></li>
+               <li><a href="index.html?#gallery">Gallery</a></li>
+               <li><a href="index.html?#about">About</a></li>
+            </ul>
+         </div>
+      </nav>
+   </div>
+
+
+   <div class="slides0">
+      <div class="laptops">
+         <div class="laptop-title">
+            <a href="index.html?#computers"><div class="b-button">Back</div></a>
+            <h1>Acer Models</h1>
+         </div>
+
+         <div class="option" style="text-align: right;">
+            <label for="brand">Select Brand</label>
+            <select id="brand" onchange="redirect()">
+               <option value="">--</option>
+               <option value="asus.html">Asus</option>
+               <option value="dell.html">Dell</option>
+               <option value="acer.html">Acer</option>
+            </select>
+         </div>
+
+         <script>
+            function redirect() {
+               var select = document.getElementById("brand");
+               var selectedOption = select.options[select.selectedIndex].value;
+               if (selectedOption) {
+                  window.location.href = selectedOption;
+               }
+            }
+         </script>
+
+         <div class="laptop-con">
+            <div class="laptop-list">
+               <div class="img-laptop1">
+                  <img src="img/acer aspire 5.jpg" alt="">
+               </div>
+               <div class="details">
+                  <div class="laptop-name">
+                     <h4>Acer Aspire 5</h4>
+                     <h4>₱33,249.00</h4>
+                  </div><br>
+                  <p>Processor: Intel Core i7-10750H <br>
+                     RAM: 16GB DDR4 <br>
+                     Storage: 512GB NVMe SSD <br>
+                     Display: 15.6-inch Full HD 144Hz IPS</p>
+               </div>
+            </div>
+            <div class="laptop-list">
+               <div class="img-laptop1">
+                  <img src="img/Acer Predator Helios 300.jpg" alt="">
+               </div>
+               <div class="details">
+                  <div class="laptop-name">
+                     <h4>Acer Predator Helios 300</h4>
+                     <h4>₱88,999.00</h4>
+                  </div><br>
+                  <p>Processor: Intel Core i7-10750H <br>
+                     RAM: 16GB DDR4 <br>
+                     Storage: 512GB NVMe SSD <br>
+                     Display: 15.6-inch Full HD 144Hz IPS</p>
+               </div>
+            </div>
+            <div class="laptop-list">
+               <div class="img-laptop1">
+                  <img src="img/Acer Swift 3.jpg" alt="">
+               </div>
+               <div class="details">
+                  <div class="laptop-name">
+                     <h4>Acer Swift 3
+                     </h4>
+                     <h4>₱42,999.00</h4>
+                  </div><br>
+                  <p> Processor: AMD Ryzen 5 4500U <br>
+                     RAM: 8GB LPDDR4X <br>
+                     Storage: 512GB NVMe SSD <br>
+                     Display: 14-inch Full HD IPS</p>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="slides laptop-slides1">
+         <div class="laptops">
+            <div class="laptop-con1">
+               <div class="laptop-list1">
+                  <div class="img-laptop1">
+                     <img src="img/Acer Nitro 5.jpg" alt="">
+                  </div>
+                  <div class="details">
+                     <div class="laptop-name">
+                        <h4>Acer Nitro 5</h4>
+                        <h4>₱49,999.00</h4>
+                     </div><br>
+                     <p>
+                        Processor: AMD Ryzen 7 5800H <br>
+                        RAM: 16GB DDR4 <br>
+                        Storage: 1TB NVMe SSD <br>
+                        Display: 15.6-inch Full HD 144Hz IPS</p>
+                  </div>
+               </div>
+               <div class="laptop-list1">
+                  <div class="img-laptop1">
+                     <img src="img/Acer Aspire 7.jpg" alt="">
+                  </div>
+                  <div class="details">
+                     <div class="laptop-name">
+                        <h4>Acer Aspire 7
+
+                        </h4>
+                        <h4>₱55,099.00</h4>
+                     </div><br>
+                     <p> Processor: AMD Ryzen 5 5500U <br>
+                        RAM: 8GB DDR4 <br>
+                        Storage: 512GB NVMe SSD <br>
+                        Display: 15.6-inch Full HD IPS</p>
+                  </div>
+               </div>
+               <div class="laptop-list1">
+                  <div class="img-laptop1">
+                     <img src="img/Acer ConceptD 7.jpg" alt="">
+                  </div>
+                  <div class="details">
+                     <div class="laptop-name">
+                        <h4>Acer ConceptD 7</h4>
+                        <h4>₱34,999.00</h4>
+                     </div><br>
+                     <p>GeForce RTX™ 2070 graphics <br>
+                        8th Generation Intel® Core™ i7 processors <br>
+                        144Hz super-narrow-bezel display <br> 1TB 5400RPM 2.5" SATA FireCuda SSHD
+                        512GB PCIe® 3.0 NVMe™ M.2 SSD</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="slides laptop-slides1">
+         <div class="laptops">
+            <div class="laptop-con1">
+               <div class="laptop-list">
+                  <div class="img-laptop1">
+                     <img src="img/Acer Chromebook Spin 713.jpg" alt="">
+                  </div>
+                  <div class="details">
+                     <div class="laptop-name">
+                        <h4>Acer Chromebook Spin 713</h4>
+                        <h4>₱66,505.00</h4>
+                     </div><br>
+                     <p>Processor: Intel Core i5-10210U <br>
+                        RAM: 8GB LPDDR4X <br>
+                        Storage: 128GB eMMC <br>
+                        Display: 13.5-inch 2K VertiView IPS Touch</p>
+                  </div>
+               </div>
+               <div class="laptop-list">
+                  <div class="img-laptop1">
+                     <img src="img/Acer TravelMate P6.jpg" alt="">
+                  </div>
+                  <div class="details">
+                     <div class="laptop-name">
+                        <h4>Acer TravelMate P6</h4>
+                        <h4>₱59,950</h4>
+                     </div><br>
+                     <p> Processor: Intel Core i7-1165G7 <br>
+                        RAM: 16GB LPDDR4X <br>
+                        Storage: 512GB NVMe SSD <br>
+                        Display: 14-inch Full HD IPS</p>
+                  </div>
+               </div>
+               <div class="laptop-list">
+                  <div class="img-laptop1">
+                     <img src="img/Acer Spin 5.jpg" alt="">
+                  </div>
+                  <div class="details">
+                     <div class="laptop-name">
+                        <h4>Acer Spin 5</h4>
+                        <h4>₱54,500</h4>
+                     </div><br>
+                     <p>Processor: Intel Core i7-1165G7 <br>
+                        RAM: 16GB LPDDR4X <br>
+                        Storage: 512GB NVMe SSD <br>
+                        Display: 13.5-inch QHD IPS Touch
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="footer">
+         <div class="footer-con">
+            <center>
+               <h2>Useful Links</h2>
+               <ul>
+                  <li><a href="https://www.asus.com/ph/">ASUS</a></li>
+                  <li><a href="https://www.dell.com/en-ph">DELL</a></li>
+                  <li><a href="https://store.acer.com/en-ph/">ACER</a></li>
+               </ul>
+            </center>
+         </div>
+         <div class="footer-con">
+            <div class="f-logo">
+               <a href="index.html">
+                  <div class="fimg">
+                     <img src="img/logo.jpg" width="100%" height="100%" alt="">
+                  </div>
+                  <div class="f-logo-name">
+                     <h1>LWarehouse</h1>
+                  </div>
+               </a>
+            </div>
+         </div>
+         <div class="footer-con">
+            <center>
+               <h2>Contact</h2>
+               <p>+63 945 694 5886</p>
+               <p>johnpaulbiibay@gmail.com</p>
+               <div class="i-con">
+                  <div class="icon"><img src="img/fb-logo.jpg" width="100%" height="100%" alt=""></div>
+                  <div class="yicon"><img src="img/yt-logo.jpg" width="100%" height="100%" alt=""></div>
+                  <div class="icon"><img src="img/tw-logo.jpg" width="100%" height="100%" alt=""></div>
+               </div>
+            </center>
+         </div>
+      </div>
+   </div>
+
+</body>
+
+</html>
